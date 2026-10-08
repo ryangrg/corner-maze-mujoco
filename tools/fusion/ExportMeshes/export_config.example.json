@@ -1,0 +1,8 @@
+{
+  "out_dir": "/ABSOLUTE/PATH/TO/corner-maze-mujoco/assets/fusion_export",
+  "refinement": "medium",
+  "units": "meter",
+  "include_hidden": true,
+  "skip_existing": true,
+  "max_bodies": 0
+}

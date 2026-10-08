@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "corner-maze-mujoco"
+version = "0.0.1"
+description = "MuJoCo model of the Blair Lab corner maze, generated from the Fusion 360 rig"
+requires-python = ">=3.10"
+dependencies = ["numpy", "mujoco>=3.2", "pillow"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

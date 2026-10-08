@@ -1,0 +1,443 @@
+{
+ "source_document": "Rendering Model v43",
+ "bodies_in_manifest": 2129,
+ "bodies_selected": 2077,
+ "skipped": {
+  "category": 0,
+  "hidden": 36,
+  "cued_monitor": 16
+ },
+ "mesh_assets": 164,
+ "collision_boxes": 113,
+ "barriers": [
+  {
+   "name": "barrier_x5_y6",
+   "grid": [
+    5,
+    6
+   ],
+   "grid_exact": [
+    5.194,
+    6.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.41018,
+    1.1584,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x7_y6",
+   "grid": [
+    7,
+    6
+   ],
+   "grid_exact": [
+    6.806,
+    6.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.41018,
+    1.5594,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x6_y7",
+   "grid": [
+    6,
+    7
+   ],
+   "grid_exact": [
+    6.0,
+    6.806
+   ],
+   "snapshot_raised": true,
+   "panel_center_lowered_m": [
+    1.61068,
+    1.3589,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x6_y5",
+   "grid": [
+    6,
+    5
+   ],
+   "grid_exact": [
+    6.0,
+    5.194
+   ],
+   "snapshot_raised": true,
+   "panel_center_lowered_m": [
+    1.20968,
+    1.3589,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x9_y10",
+   "grid": [
+    9,
+    10
+   ],
+   "grid_exact": [
+    9.194,
+    10.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    2.40542,
+    2.15364,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x10_y9",
+   "grid": [
+    10,
+    9
+   ],
+   "grid_exact": [
+    10.0,
+    9.194
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    2.20492,
+    2.35414,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x10_y3",
+   "grid": [
+    10,
+    3
+   ],
+   "grid_exact": [
+    10.0,
+    2.806
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    0.61544,
+    2.35414,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x9_y2",
+   "grid": [
+    9,
+    2
+   ],
+   "grid_exact": [
+    9.194,
+    2.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    0.41493,
+    2.15364,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x3_y2",
+   "grid": [
+    3,
+    2
+   ],
+   "grid_exact": [
+    2.806,
+    2.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    0.41494,
+    0.56416,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x2_y3",
+   "grid": [
+    2,
+    3
+   ],
+   "grid_exact": [
+    2.0,
+    2.806
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    0.61544,
+    0.36365,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x2_y9",
+   "grid": [
+    2,
+    9
+   ],
+   "grid_exact": [
+    2.0,
+    9.194
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    2.20492,
+    0.36365,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x3_y10",
+   "grid": [
+    3,
+    10
+   ],
+   "grid_exact": [
+    2.806,
+    10.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    2.40543,
+    0.56416,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x6_y9",
+   "grid": [
+    6,
+    9
+   ],
+   "grid_exact": [
+    6.0,
+    9.194
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    2.20492,
+    1.3589,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x5_y10",
+   "grid": [
+    5,
+    10
+   ],
+   "grid_exact": [
+    5.194,
+    10.0
+   ],
+   "snapshot_raised": true,
+   "panel_center_lowered_m": [
+    2.40542,
+    1.1584,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x7_y10",
+   "grid": [
+    7,
+    10
+   ],
+   "grid_exact": [
+    6.806,
+    10.0
+   ],
+   "snapshot_raised": true,
+   "panel_center_lowered_m": [
+    2.40542,
+    1.5594,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x9_y6",
+   "grid": [
+    9,
+    6
+   ],
+   "grid_exact": [
+    9.194,
+    6.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.41018,
+    2.15364,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x10_y7",
+   "grid": [
+    10,
+    7
+   ],
+   "grid_exact": [
+    10.0,
+    6.806
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.61068,
+    2.35414,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x10_y5",
+   "grid": [
+    10,
+    5
+   ],
+   "grid_exact": [
+    10.0,
+    5.194
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.20968,
+    2.35414,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x3_y6",
+   "grid": [
+    3,
+    6
+   ],
+   "grid_exact": [
+    2.806,
+    6.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.41018,
+    0.56416,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x2_y5",
+   "grid": [
+    2,
+    5
+   ],
+   "grid_exact": [
+    2.0,
+    5.194
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.20968,
+    0.36365,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x2_y7",
+   "grid": [
+    2,
+    7
+   ],
+   "grid_exact": [
+    2.0,
+    6.806
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.61068,
+    0.36365,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x6_y3",
+   "grid": [
+    6,
+    3
+   ],
+   "grid_exact": [
+    6.0,
+    2.806
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    0.61544,
+    1.3589,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x7_y2",
+   "grid": [
+    7,
+    2
+   ],
+   "grid_exact": [
+    6.806,
+    2.0
+   ],
+   "snapshot_raised": true,
+   "panel_center_lowered_m": [
+    0.41494,
+    1.5594,
+    0.48773
+   ]
+  },
+  {
+   "name": "barrier_x5_y2",
+   "grid": [
+    5,
+    2
+   ],
+   "grid_exact": [
+    5.194,
+    2.0
+   ],
+   "snapshot_raised": true,
+   "panel_center_lowered_m": [
+    0.41494,
+    1.1584,
+    0.48773
+   ]
+  }
+ ],
+ "barrier_travel_m": 0.4064,
+ "screens": {
+  "cue_x1_y6": "screen_cue_x1_y6",
+  "cue_x6_y11": "screen_cue_x6_y11",
+  "cue_x11_y6": "screen_cue_x11_y6",
+  "cue_x6_y1": "screen_cue_x6_y1"
+ },
+ "lights": {
+  "cue_x1_y6": "light_cue_x1_y6",
+  "cue_x6_y11": "light_cue_x6_y11",
+  "cue_x11_y6": "light_cue_x11_y6",
+  "cue_x6_y1": "light_cue_x6_y1"
+ },
+ "cameras": [
+  "eye_left",
+  "eye_right",
+  "overhead"
+ ],
+ "head_body": "rat_head",
+ "eye_z_m": 0.9163557999999999,
+ "track_top_m": 0.8528557999999999
+}

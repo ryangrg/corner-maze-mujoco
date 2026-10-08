@@ -1,0 +1,7 @@
+{
+	"autodeskProduct": "Fusion",
+	"type": "script",
+	"author": "",
+	"description": {"": "Read-only dump of the active design's occurrence tree to JSON"},
+	"supportedOS": "windows|mac"
+}

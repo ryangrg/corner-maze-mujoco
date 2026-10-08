@@ -1,0 +1,7 @@
+{
+	"autodeskProduct": "Fusion",
+	"type": "script",
+	"author": "",
+	"description": {"": "Export every body of the active design as a world-frame OBJ plus a JSON manifest"},
+	"supportedOS": "windows|mac"
+}
