@@ -1,0 +1,45 @@
+{
+ "name": "room",
+ "source_document": "Rendering Model v43",
+ "manifest": "assets/fusion_export/rendering_model_v43/manifest.json",
+ "maze_root_excluded": "Full Assembly v32:1",
+ "bodies_selected": 35,
+ "skipped": {
+  "other_root": 2078,
+  "skipped_top": 16,
+  "category": 0,
+  "hidden": 0
+ },
+ "mesh_assets": 12,
+ "screens": {
+  "cue_x1_y6": "screen_cue_x1_y6",
+  "cue_x6_y11": "screen_cue_x6_y11",
+  "cue_x11_y6": "screen_cue_x11_y6",
+  "cue_x6_y1": "screen_cue_x6_y1"
+ },
+ "lights": {
+  "cue_x1_y6": "light_cue_x1_y6",
+  "cue_x6_y11": "light_cue_x6_y11",
+  "cue_x11_y6": "light_cue_x11_y6",
+  "cue_x6_y1": "light_cue_x6_y1"
+ },
+ "reference": {
+  "x_from_grid_y_m": {
+   "1": 0.204191,
+   "2": 0.414934,
+   "6": 1.410183,
+   "10": 2.405431,
+   "11": 2.616175
+  },
+  "y_from_grid_x_m": {
+   "1": 0.152908,
+   "2": 0.363652,
+   "6": 1.3589,
+   "10": 2.354148,
+   "11": 2.564892
+  },
+  "track_top_m": 0.852856,
+  "eye_raise_m": 0.0635
+ },
+ "floor_z_m": 0.0
+}

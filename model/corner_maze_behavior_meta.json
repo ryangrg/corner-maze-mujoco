@@ -1,0 +1,327 @@
+{
+ "name": "corner_maze_behavior",
+ "room": "room",
+ "maze": "behavior",
+ "source_documents": {
+  "room": "Rendering Model v43",
+  "maze": "Complete Maze Assembly II v16"
+ },
+ "frame": {
+  "x_from_grid_y_m": {
+   "1": 0.197738,
+   "2": 0.410182,
+   "6": 1.410183,
+   "10": 2.410184,
+   "11": 2.622628
+  },
+  "y_from_grid_x_m": {
+   "1": 0.146455,
+   "2": 0.358899,
+   "6": 1.3589,
+   "10": 2.358901,
+   "11": 2.571345
+  },
+  "track_top_m": 1.003301,
+  "eye_raise_m": 0.0635
+ },
+ "eye_z_m": 1.0668009999999999,
+ "track_top_m": 1.003301,
+ "barriers": [
+  {
+   "name": "barrier_x5_y10",
+   "grid": [
+    5,
+    10
+   ],
+   "grid_exact": [
+    5.187,
+    10.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    2.41018,
+    1.1557,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x7_y10",
+   "grid": [
+    7,
+    10
+   ],
+   "grid_exact": [
+    6.813,
+    10.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    2.41018,
+    1.5621,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x6_y9",
+   "grid": [
+    6,
+    9
+   ],
+   "grid_exact": [
+    6.0,
+    9.187
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    2.20698,
+    1.3589,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x7_y2",
+   "grid": [
+    7,
+    2
+   ],
+   "grid_exact": [
+    6.813,
+    2.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    0.41018,
+    1.5621,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x5_y2",
+   "grid": [
+    5,
+    2
+   ],
+   "grid_exact": [
+    5.187,
+    2.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    0.41018,
+    1.1557,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x6_y3",
+   "grid": [
+    6,
+    3
+   ],
+   "grid_exact": [
+    6.0,
+    2.813
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    0.61338,
+    1.3589,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x10_y7",
+   "grid": [
+    10,
+    7
+   ],
+   "grid_exact": [
+    10.0,
+    6.813
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.61338,
+    2.3589,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x10_y5",
+   "grid": [
+    10,
+    5
+   ],
+   "grid_exact": [
+    10.0,
+    5.187
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.20698,
+    2.3589,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x9_y6",
+   "grid": [
+    9,
+    6
+   ],
+   "grid_exact": [
+    9.187,
+    6.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.41018,
+    2.1557,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x2_y5",
+   "grid": [
+    2,
+    5
+   ],
+   "grid_exact": [
+    2.0,
+    5.187
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.20698,
+    0.3589,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x2_y7",
+   "grid": [
+    2,
+    7
+   ],
+   "grid_exact": [
+    2.0,
+    6.813
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.61338,
+    0.3589,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x3_y6",
+   "grid": [
+    3,
+    6
+   ],
+   "grid_exact": [
+    2.813,
+    6.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.41018,
+    0.5621,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x6_y7",
+   "grid": [
+    6,
+    7
+   ],
+   "grid_exact": [
+    6.0,
+    6.813
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.61338,
+    1.3589,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x6_y5",
+   "grid": [
+    6,
+    5
+   ],
+   "grid_exact": [
+    6.0,
+    5.187
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.20698,
+    1.3589,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x5_y6",
+   "grid": [
+    5,
+    6
+   ],
+   "grid_exact": [
+    5.187,
+    6.0
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.41018,
+    1.1557,
+    0.8001
+   ]
+  },
+  {
+   "name": "barrier_x7_y6",
+   "grid": [
+    7,
+    6
+   ],
+   "grid_exact": [
+    6.813,
+    5.99
+   ],
+   "snapshot_raised": false,
+   "panel_center_lowered_m": [
+    1.40763,
+    1.5621,
+    0.8001
+   ]
+  }
+ ],
+ "barrier_travel_m": 0.30479999999999996,
+ "screens": {
+  "cue_x1_y6": "screen_cue_x1_y6",
+  "cue_x6_y11": "screen_cue_x6_y11",
+  "cue_x11_y6": "screen_cue_x11_y6",
+  "cue_x6_y1": "screen_cue_x6_y1"
+ },
+ "lights": {
+  "cue_x1_y6": "light_cue_x1_y6",
+  "cue_x6_y11": "light_cue_x6_y11",
+  "cue_x11_y6": "light_cue_x11_y6",
+  "cue_x6_y1": "light_cue_x6_y1"
+ },
+ "cameras": [
+  "eye_left",
+  "eye_right",
+  "overhead"
+ ],
+ "head_body": "rat_head",
+ "mesh_assets": {
+  "room": 12,
+  "maze": 175
+ },
+ "collision_boxes": 81
+}

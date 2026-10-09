@@ -27,7 +27,12 @@ class MazeRenderer:
         xml_path = Path(xml_path)
         self.model = mujoco.MjModel.from_xml_path(str(xml_path))
         self.data = mujoco.MjData(self.model)
-        self.meta = json.loads((xml_path.parent / "model_meta.json").read_text())
+        meta_path = xml_path.with_name(xml_path.stem + "_meta.json")
+        if not meta_path.exists():  # pre-2026-10-09 single-file builds
+            meta_path = xml_path.parent / "model_meta.json"
+        self.meta = json.loads(meta_path.read_text())
+        # grid frame of the maze this model was composed with (eyes follow the track)
+        self.frame = P.GridFrame.from_meta(self.meta["frame"]) if "frame" in self.meta else P.CAPTUREVIEW
         self.size = size
         self._renderer = mujoco.Renderer(self.model, height=size, width=size)
         self._head = self.model.body_mocapid[mujoco.mj_name2id(self.model, mujoco.mjtObj.mjOBJ_BODY, "rat_head")]
@@ -54,7 +59,7 @@ class MazeRenderer:
                 self.model.light_active[self._light[wall]] = 1 if on else 0
 
     def set_head(self, x: float, y: float, direction: int):
-        pos, quat = P.head_pose(x, y, direction)
+        pos, quat = self.frame.head_pose(x, y, direction)
         self.data.mocap_pos[self._head] = pos
         self.data.mocap_quat[self._head] = quat
 

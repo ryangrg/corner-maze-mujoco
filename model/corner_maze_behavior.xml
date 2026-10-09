@@ -1,0 +1,29 @@
+<mujoco model="corner_maze_behavior">
+  <compiler angle="radian" meshdir="meshes" autolimits="true" />
+  <option gravity="0 0 -9.81" timestep="0.002" />
+  <visual>
+    <global offwidth="1024" offheight="1024" />
+    <headlight ambient="0 0 0" diffuse="0 0 0" specular="0 0 0" active="1" />
+    <quality shadowsize="4096" />
+    <map znear="0.005" zfar="50" />
+  </visual>
+  <default>
+    <geom contype="0" conaffinity="0" group="1" />
+    <default class="collision">
+      <geom contype="1" conaffinity="1" group="3" rgba="1 0 0 0.3" type="box" />
+    </default>
+    <default class="eye">
+      <camera fovy="121.5" />
+    </default>
+  </default>
+  <include file="room.xml" />
+  <include file="maze_behavior.xml" />
+  <worldbody>
+    <body name="rat_head" mocap="true" pos="1.41018 1.3589 1.0668" quat="0.707107 0 0 0.707107">
+      <site name="eye_center" size="0.005" rgba="0 1 0 1" group="4" />
+      <camera class="eye" name="eye_left" pos="0 0.00635 0" quat="0.572049 0.745508 -0.271343 -0.208209" />
+      <camera class="eye" name="eye_right" pos="0 -0.00635 0" quat="-0.208209 -0.271343 0.745508 0.572049" />
+    </body>
+    <camera name="overhead" pos="1.41018 1.3589 2.2533" quat="1 0 0 0" fovy="100" />
+  </worldbody>
+</mujoco>

@@ -1,7 +1,7 @@
-# Large mesh exports: regenerate with tools/fusion/ExportMeshes (or track with Git LFS)
-assets/fusion_export/meshes/
-assets/fusion_export/export_log.txt
-assets/fusion_export/manifest.partial.json
+# Large mesh exports, one folder per Fusion source: regenerate with tools/fusion/ExportMeshes (or track with Git LFS)
+assets/fusion_export/*/meshes/
+assets/fusion_export/*/export_log.txt
+assets/fusion_export/*/manifest.partial.json
 # local-only Fusion script config (absolute paths)
 tools/fusion/ExportMeshes/export_config.json
 __pycache__/
@@ -10,3 +10,4 @@ __pycache__/
 # per-build mesh copies written by build_mjcf (145 MB); regenerate from the Fusion export
 model/meshes/
 .pytest_cache/
+CLAUDE.md

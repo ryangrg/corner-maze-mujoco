@@ -1,0 +1,65 @@
+<mujocoinclude>
+  <asset>
+    <texture name="sky" type="skybox" builtin="flat" rgb1="0 0 0" rgb2="0 0 0" width="32" height="32" />
+    <material name="mat_floor" rgba="0.03 0.03 0.03 1" />
+    <material name="screen_blank" rgba="0.3 0.3 0.3 1" emission="1" specular="0" shininess="0" />
+    <material name="screen_cue" rgba="1 1 1 1" emission="1" specular="0" shininess="0" />
+    <mesh name="room_24_Monitor_v17_Body1_6d740b" file="room/24_Monitor_v17_Body1_6d740b.obj" />
+    <mesh name="room_24_Monitor_v17_Body2_07542d" file="room/24_Monitor_v17_Body2_07542d.obj" />
+    <mesh name="room_Corner_Support_v3_Body1_d4005c" file="room/Corner_Support_v3_Body1_d4005c.obj" />
+    <mesh name="room_Long_Upper_Cross_Beam_Holes_v3_Body1_db5509" file="room/Long_Upper_Cross_Beam_Holes_v3_Body1_db5509.obj" />
+    <mesh name="room_Long_Upper_Cross_Beam_v2_Body1_fa7885" file="room/Long_Upper_Cross_Beam_v2_Body1_fa7885.obj" />
+    <mesh name="room_Monitor_45_Support_v11_Body1_911f35" file="room/Monitor_45_Support_v11_Body1_911f35.obj" />
+    <mesh name="room_Monitor_Base_1A_v7_Body1_2376be" file="room/Monitor_Base_1A_v7_Body1_2376be.obj" />
+    <mesh name="room_Monitor_Mount_v4_Body1_68d4db" file="room/Monitor_Mount_v4_Body1_68d4db.obj" />
+    <mesh name="room_OverheadPlatform_III_v21_Body5_5d3935" file="room/OverheadPlatform_III_v21_Body5_5d3935.obj" />
+    <mesh name="room_Overhead_Curtain_v4_Body1_e1f5ea" file="room/Overhead_Curtain_v4_Body1_e1f5ea.obj" />
+    <mesh name="room_Overhead_Curtain_v4_Body5_3f8b5b" file="room/Overhead_Curtain_v4_Body5_3f8b5b.obj" />
+    <mesh name="room_Side_Curtain_v6_Body1_5e4e55" file="room/Side_Curtain_v6_Body1_5e4e55.obj" />
+    <material name="mat_room_Blackest_Black" rgba="0 0 0 1" />
+    <material name="mat_room_Fabric_Black" rgba="0.02 0.02 0.02 1" />
+    <material name="mat_room_Steel_Satin" rgba="0 0 0 1" />
+  </asset>
+  <worldbody>
+    <geom name="floor" type="plane" size="6 6 0.1" pos="1.4 1.35 0" material="mat_floor" contype="1" conaffinity="1" group="0" />
+    <geom type="mesh" mesh="room_Long_Upper_Cross_Beam_Holes_v3_Body1_db5509" pos="2.73257 0.0365126 2.23679" quat="0.707107 -3.35064e-17 4.50032e-17 0.707107" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Long_Upper_Cross_Beam_Holes_v3_Body1_db5509" pos="0.0877934 2.68129 2.23679" quat="0.707107 1.37383e-16 3.92523e-17 -0.707107" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Long_Upper_Cross_Beam_v2_Body1_fa7885" pos="0.0877934 0.0365126 2.23679" quat="1 5.58704e-19 -3.04646e-19 -3.46945e-18" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Long_Upper_Cross_Beam_v2_Body1_fa7885" pos="2.73257 2.68129 2.23679" quat="1.21906e-13 -9.13939e-19 1.79334e-18 1" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_OverheadPlatform_III_v21_Body5_5d3935" pos="1.41018 1.3589 2.2505" quat="1 -4.90741e-18 -4.90567e-18 -2.77556e-17" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Corner_Support_v3_Body1_d4005c" pos="0.106843 0.0555626 -6.42331e-14" quat="1 5.59904e-30 2.91171e-30 0" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Corner_Support_v3_Body1_d4005c" pos="2.71352 0.0555626 -6.42331e-14" quat="1 5.59904e-30 2.91171e-30 0" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Corner_Support_v3_Body1_d4005c" pos="0.106843 2.66224 -8.52651e-16" quat="1 5.59904e-30 2.91171e-30 0" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Corner_Support_v3_Body1_d4005c" pos="2.71352 2.66224 -8.52651e-16" quat="1 5.59904e-30 2.91171e-30 0" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Overhead_Curtain_v4_Body1_e1f5ea" pos="1.41018 1.3589 2.23679" quat="1 0 -1.38778e-17 -2.77556e-17" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Overhead_Curtain_v4_Body5_3f8b5b" pos="1.41018 1.3589 2.23679" quat="1 0 -1.38778e-17 -2.77556e-17" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Monitor_Base_1A_v7_Body1_2376be" pos="1.41018 0.950913 2.34474" quat="0.707107 0.707107 4.66245e-13 4.66291e-13" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Monitor_Base_1A_v7_Body1_2376be" pos="1.81817 1.3589 2.34474" quat="0.5 0.5 0.5 0.5" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Monitor_Base_1A_v7_Body1_2376be" pos="1.00219 1.3589 2.34474" quat="0.5 0.5 -0.5 -0.5" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Monitor_Base_1A_v7_Body1_2376be" pos="1.41018 1.76689 2.34474" quat="-5.70795e-13 -5.70854e-13 0.707107 0.707107" material="mat_room_Fabric_Black" />
+    <geom type="mesh" mesh="room_Side_Curtain_v6_Body1_5e4e55" pos="1.41018 0.0733426 1.11839" quat="1 -1.92593e-34 0 -1.73472e-18" material="mat_room_Blackest_Black" />
+    <geom type="mesh" mesh="room_Side_Curtain_v6_Body1_5e4e55" pos="1.41018 2.64319 1.11839" quat="1 -1.38778e-17 2.28767e-18 2.44633e-19" material="mat_room_Blackest_Black" />
+    <geom type="mesh" mesh="room_Side_Curtain_v6_Body1_5e4e55" pos="2.6935 1.35666 1.11586" quat="0.707107 -1.90128e-17 0.00139835 0.707105" material="mat_room_Blackest_Black" />
+    <geom type="mesh" mesh="room_Side_Curtain_v6_Body1_5e4e55" pos="0.124461 1.35747 1.12094" quat="0.707107 -4.04789e-17 0.00139835 0.707105" material="mat_room_Blackest_Black" />
+    <geom type="mesh" mesh="room_Monitor_Mount_v4_Body1_68d4db" pos="1.40977 0.23295 2.10566" quat="0.269306 -0.65328 0.653817 0.270598" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_24_Monitor_v17_Body1_6d740b" pos="1.40965 0.268928 2.04829" quat="-0.000913144 0.000379295 0.924257 0.38177" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_24_Monitor_v17_Body2_07542d" pos="1.40965 0.268928 2.04829" quat="-0.000913144 0.000379295 0.924257 0.38177" material="screen_blank" name="screen_cue_x1_y6" />
+    <light name="light_cue_x1_y6" pos="1.4096 0.304351 2.01275" dir="0.000390062 0.707107 -0.707107" cutoff="80" exponent="1" attenuation="1 0 0.6" diffuse="0.6 0.6 0.6" specular="0.2 0.2 0.2" ambient="0 0 0" castshadow="true" active="false" />
+    <geom type="mesh" mesh="room_Monitor_45_Support_v11_Body1_911f35" pos="1.41021 0.23339 2.32791" quat="-3.46132e-14 0.707107 0.707105 -0.00139835" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_Monitor_Mount_v4_Body1_68d4db" pos="2.53572 1.35807 2.10344" quat="0.00182704 0.923878 -0.000756783 -0.382683" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_24_Monitor_v17_Body1_6d740b" pos="2.49963 1.35784 2.04614" quat="-0.271889 -0.652745 0.653815 0.269306" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_24_Monitor_v17_Body2_07542d" pos="2.49963 1.35784 2.04614" quat="-0.271889 -0.652745 0.653815 0.269306" material="screen_blank" name="screen_cue_x6_y11" />
+    <light name="light_cue_x6_y11" pos="2.46415 1.35774 2.01066" dir="-0.707106 0.000778181 -0.707107" cutoff="80" exponent="1" attenuation="1 0 0.6" diffuse="0.6 0.6 0.6" specular="0.2 0.2 0.2" ambient="0 0 0" castshadow="true" active="false" />
+    <geom type="mesh" mesh="room_Monitor_45_Support_v11_Body1_911f35" pos="2.53572 1.35895 2.32569" quat="-4.9098e-14 -6.26734e-13 0.999998 -0.00197757" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_Monitor_Mount_v4_Body1_68d4db" pos="1.4106 2.48402 2.10121" quat="0.27189 0.65328 0.652746 -0.270598" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_24_Monitor_v17_Body1_6d740b" pos="1.41071 2.44782 2.04398" quat="0.383597 0.9235 -0.000377488 0.000913892" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_24_Monitor_v17_Body2_07542d" pos="1.41071 2.44782 2.04398" quat="0.383597 0.9235 -0.000377488 0.000913892" material="screen_blank" name="screen_cue_x11_y6" />
+    <light name="light_cue_x11_y6" pos="1.41076 2.41228 2.00856" dir="-0.000388195 -0.707107 -0.707107" cutoff="80" exponent="1" attenuation="1 0 0.6" diffuse="0.6 0.6 0.6" specular="0.2 0.2 0.2" ambient="0 0 0" castshadow="true" active="false" />
+    <geom type="mesh" mesh="room_Monitor_45_Support_v11_Body1_911f35" pos="1.41016 2.48446 2.32346" quat="3.48174e-14 0.707107 -0.707105 0.00139835" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_Monitor_Mount_v4_Body1_68d4db" pos="0.284643 1.3589 2.10344" quat="0.382683 -8.84584e-13 0.92388 3.13357e-13" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_24_Monitor_v17_Body1_6d740b" pos="0.320734 1.3589 2.04613" quat="0.270598 0.653281 0.653281 0.270598" material="mat_room_Steel_Satin" />
+    <geom type="mesh" mesh="room_24_Monitor_v17_Body2_07542d" pos="0.320734 1.3589 2.04613" quat="0.270598 0.653281 0.653281 0.270598" material="screen_blank" name="screen_cue_x6_y1" />
+    <light name="light_cue_x6_y1" pos="0.356213 1.3589 2.01065" dir="0.707107 -7.48997e-08 -0.707107" cutoff="80" exponent="1" attenuation="1 0 0.6" diffuse="0.6 0.6 0.6" specular="0.2 0.2 0.2" ambient="0 0 0" castshadow="true" active="false" />
+    <geom type="mesh" mesh="room_Monitor_45_Support_v11_Body1_911f35" pos="0.284643 1.3589 2.32569" quat="1.00349e-16 1 9.37387e-13 4.72672e-14" material="mat_room_Steel_Satin" />
+  </worldbody>
+</mujocoinclude>
