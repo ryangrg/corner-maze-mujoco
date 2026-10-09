@@ -1,5 +1,8 @@
 """Barrier and cue state per corner-maze-rl pose-label prefix.
 
+ITI layouts raise both centre doors on the start arm's axis (as the rig does;
+changed 2026-10-09 together with corner_maze_env.py).
+
 Mirrors the layout tuples built in corner_maze_rl.env.corner_maze_env
 (CornerMazeEnv.__init__): tuple index 0 = state type, 1..16 = barriers in
 BARRIER_LOCATIONS order, 17..20 = cues (E, S, W, N). Only the parts needed to
@@ -41,18 +44,18 @@ _FIXED = {
     "expb_enwx_x_xx": [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0],
     "expb_enws_x_xx": [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0],
     "expb_x_x_xx": [0] * 16,
-    "iti_e_x_xx": [0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0],
-    "iti_e_x_ne": [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 0, 0],
-    "iti_e_x_se": [1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0],
-    "iti_s_x_xx": [0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0],
-    "iti_s_x_se": [1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0],
-    "iti_s_x_sw": [0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0],
-    "iti_w_x_xx": [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0],
-    "iti_w_x_sw": [0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0],
-    "iti_w_x_nw": [0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0],
-    "iti_n_x_xx": [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1],
-    "iti_n_x_nw": [0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 0, 0, 1],
-    "iti_n_x_ne": [0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1],
+    "iti_e_x_xx": [0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0],
+    "iti_e_x_ne": [0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0],
+    "iti_e_x_se": [1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0],
+    "iti_s_x_xx": [0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1],
+    "iti_s_x_se": [1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1],
+    "iti_s_x_sw": [0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 1],
+    "iti_w_x_xx": [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0],
+    "iti_w_x_sw": [0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0],
+    "iti_w_x_nw": [0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0],
+    "iti_n_x_xx": [0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1],
+    "iti_n_x_nw": [0, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1],
+    "iti_n_x_ne": [0, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1],
 }
 
 _LABEL_RX = re.compile(r"^(?P<prefix>.+)_(?P<x>\d+)_(?P<y>\d+)_(?P<d>\d)$")

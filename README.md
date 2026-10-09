@@ -18,6 +18,11 @@ tools/eval_raw_captures.py  score renders against all 1,244 raw Fusion captures
 tools/embedding_parity.py   push renders through the pretrained encoder, compare embeddings
 tools/diag_light.py         stray-light / bounce-light diagnostic for cued poses
 tests/test_pose.py          pins the coordinate and camera conventions
+tests/test_context_constants.py  the vendored door/zone registry vs layouts.py and the model
+src/corner_maze_mujoco/context/  doors.json, zones.json (copies of corner-maze-analysis/docs/context/
+                            constants/, hashes in context_constants.json): the rig's 16 doors, the
+                            zone edges they close, the permutation to BARRIER_LOCATIONS, the MuJoCo
+                            body names; the rig order is the ground truth
 src/corner_maze_mujoco/
   pose.py                   grid <-> world mapping (GridFrame), eye camera model (mirrors CaptureView)
   fusion_manifest.py        manifest loader, dedup key, MTL colours
