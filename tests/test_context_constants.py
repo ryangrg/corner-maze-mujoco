@@ -1,7 +1,7 @@
 """The vendored task-context constants and this repo's layouts and model.
 
 src/corner_maze_mujoco/context/ holds copies of
-corner-maze-analysis/docs/context/constants/ with their SHA-256 in
+corner-maze/docs/context/constants/ with their SHA-256 in
 context_constants.json, so a copy cannot drift silently. The rig's door order
 is the ground truth: layouts.py's tables (which mirror the RL env) must equal
 the rig's pretrial, trial and Exposure 2e layouts after the registry's
